@@ -1,0 +1,393 @@
+{
+  "user": [
+    {
+      "id": "026a",
+      "nome": "Matheus Amaral",
+      "cpf": "15565186684",
+      "email": "matheuscamposdoamaral15@gmail.com",
+      "password": "Amarelo@10",
+      "address": [
+        {
+          "cep": "32042130",
+          "rua": "Rua Montes Claros",
+          "numero": "628",
+          "bairro": "Alvorada",
+          "cidade": "Contagem",
+          "estado": "MG"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Whey Pro Max Titanium",
+      "price": 120,
+      "image": "/src/assets/whey-pro-max.png",
+      "size": "1KG",
+      "category": "whey",
+      "flavor": "Chocolate",
+      "typePack": "Pote"
+    },
+    {
+      "id": "2",
+      "title": "Whey Protein Concentrado Dux",
+      "price": 120,
+      "image": "/src/assets/logo-dux.png",
+      "size": "900g",
+      "category": "whey",
+      "flavor": "Chocolate",
+      "typePack": "Pote"
+    },
+    {
+      "id": "3",
+      "title": "Whey Isolate Definition Body Action",
+      "price": 120,
+      "image": "/src/assets/isolate_definition_bopy-action-.png",
+      "size": "900g",
+      "category": "whey",
+      "flavor": "Chocolate",
+      "typePack": "Pote"
+    },
+    {
+      "id": "4",
+      "title": "Whey 100% Integral Médica",
+      "price": 120,
+      "image": "/src/assets/whey-100-pouch-900g-baunilha-integralmedica.png",
+      "size": "900g",
+      "category": "whey",
+      "flavor": "Baunilha",
+      "typePack": "Pote"
+    },
+    {
+      "id": "5",
+      "title": "100% Whey Max Titanium",
+      "price": 120,
+      "image": "/src/assets/100_whey.png",
+      "size": "900g",
+      "category": "whey",
+      "flavor": "Cookies & Cream",
+      "typePack": "Pote"
+    },
+    {
+      "id": "6",
+      "title": "Isolate Prime Whey Body Action",
+      "price": 120,
+      "image": "/src/assets/isolate_prime_whey_bodyaction.png",
+      "size": "900g",
+      "category": "whey",
+      "flavor": "Morango",
+      "typePack": "Pote"
+    },
+    {
+      "id": "7",
+      "title": "100% Whey Body Nutri",
+      "price": 120,
+      "image": "/src/assets/100_-whey-body-nutri-.png",
+      "size": "900g",
+      "category": "whey",
+      "flavor": "Chocolate",
+      "typePack": "Pote"
+    },
+    {
+      "id": "8",
+      "title": "100% Whey Body Action",
+      "price": 120,
+      "image": "/src/assets/100-whey-body-action.png",
+      "size": "900g",
+      "category": "whey",
+      "flavor": "Chocolate",
+      "typePack": "Pote"
+    },
+    {
+      "id": "9",
+      "title": "Creatina HD Muscle Hd",
+      "price": 89.9,
+      "image": "/src/assets/creatina-hd-muscle-hd.png",
+      "size": "300g",
+      "category": "creatina",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "10",
+      "title": "Creatina Turbo Black Skull",
+      "price": 89.9,
+      "image": "/src/assets/creatine_black_skull-.png",
+      "size": "300g",
+      "category": "creatina",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "11",
+      "title": "Creatina 5.0 Muscle HD",
+      "price": 89.9,
+      "image": "/src/assets/creatina-5.0-muscle-hd.png",
+      "size": "300g",
+      "category": "creatina",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "12",
+      "title": "Creatina Body Nutri 300g",
+      "price": 99.9,
+      "image": "/src/assets/creatine-double-force.png",
+      "size": "300g",
+      "category": "creatina",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "13",
+      "title": "Creatina Max Titanium",
+      "price": 89.9,
+      "image": "/src/assets/creatina-150g-max-titanium.png",
+      "size": "150g",
+      "category": "creatina",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "14",
+      "title": "Creatina Integral Médica",
+      "price": 89.9,
+      "image": "/src/assets/creatina-integral-medica.png",
+      "size": "300g",
+      "category": "creatina",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "15",
+      "title": "Creatina Body Nutri 150g",
+      "price": 99.9,
+      "image": "/src/assets/creatine-double-force-150g.png",
+      "size": "150g",
+      "category": "creatina",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "16",
+      "title": "Pré-Treino No Control",
+      "price": 89.9,
+      "image": "/src/assets/no_control_-.png",
+      "size": "300g",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "17",
+      "title": "Zma Black Skull",
+      "price": 89.9,
+      "image": "/src/assets/ZMA-BLACK-SKULL-120-CAPS.png",
+      "size": "120 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "18",
+      "title": "Ripzzz Black Skull",
+      "price": 89.9,
+      "image": "/src/assets/ripzzz-triptofano-.png",
+      "size": "60 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "19",
+      "title": "Triptofano New Nutrition",
+      "price": 89.9,
+      "image": "/src/assets/triptofanonewnutrition.png",
+      "size": "60 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "20",
+      "title": "Complexo B New Nutrition",
+      "price": 89.9,
+      "image": "/src/assets/complexo-b-120.png",
+      "size": "120 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "21",
+      "title": "Thermo cut HD Muscle Hd",
+      "price": 89.9,
+      "image": "/src/assets/thermo-cut-hd-.png",
+      "size": "120 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "22",
+      "title": "Psillium Ocean Drop",
+      "price": 89.9,
+      "image": "/src/assets/pssilium_ocean_drop-.png",
+      "size": "300g",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "23",
+      "title": "Barra de Proteina Muscle HD",
+      "price": 89.9,
+      "image": "/src/assets/protein-bar-.png",
+      "size": "12 uni",
+      "category": "outros",
+      "flavor": "Cookies & Cream",
+      "typePack": "Caixa"
+    },
+    {
+      "id": "24",
+      "title": "Ômega 3 Catari",
+      "price": 89.9,
+      "image": "/src/assets/omega-3-catarinense-.png",
+      "size": "120 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "25",
+      "title": "CoQ10 Body Nutri",
+      "price": 89.9,
+      "image": "/src/assets/-q-10_body_nutri-.png",
+      "size": "60 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "26",
+      "title": "Glutamina Black Skull",
+      "price": 89.9,
+      "image": "/src/assets/glutamina-black-skull.png",
+      "size": "150g",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "27",
+      "title": "Maca Peruana Body Nutri",
+      "price": 89.9,
+      "image": "/src/assets/maca_peruana_body_nutry-.png",
+      "size": "60 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "28",
+      "title": "Equilibrium Body Nutri",
+      "price": 89.9,
+      "image": "/src/assets/equilibrium-.png",
+      "size": "60 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "29",
+      "title": "Bcaa Age",
+      "price": 89.9,
+      "image": "/src/assets/bcaaa_age-.png",
+      "size": "90 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "30",
+      "title": "Ômega 3 Muscle HD",
+      "price": 89.9,
+      "image": "/src/assets/omega_3musclehd-.png",
+      "size": "120 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "31",
+      "title": "Probiotic10 SunFood",
+      "price": 89.9,
+      "image": "/src/assets/sunfood_probiotico.png",
+      "size": "60 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "32",
+      "title": "Zma Growth",
+      "price": 89.9,
+      "image": "/src/assets/zma-growth.png",
+      "size": "120 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "33",
+      "title": "Zma Body Nutry",
+      "price": 89.9,
+      "image": "/src/assets/zma-body-nutrii.png",
+      "size": "60 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "34",
+      "title": "Fiber Premium Growth",
+      "price": 89.9,
+      "image": "/src/assets/fiber-premium-growth.png",
+      "size": "250g",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "35",
+      "title": "Colágeno Hidrolisado Body Nutri",
+      "price": 89.9,
+      "image": "/src/assets/colageno-hidrolisado-body-nutri.png",
+      "size": "120 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "36",
+      "title": "Vit C Body Nutri",
+      "price": 89.9,
+      "image": "/src/assets/vit-c-body-nutri.png",
+      "size": "60 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    },
+    {
+      "id": "37",
+      "title": "Complexo B Growth",
+      "price": 89.9,
+      "image": "/src/assets/complexo-b-growth.png",
+      "size": "120 caps",
+      "category": "outros",
+      "flavor": "Sem sabor",
+      "typePack": "Pote"
+    }
+  ]
+}
