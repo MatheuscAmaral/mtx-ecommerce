@@ -425,7 +425,7 @@ export const Checkout = ({ className, ...props }: CardProps) => {
                   type="submit"
                   className={`${
                     loading ? "disabled cursor-not-allowed opacity-70" : ""
-                  } text-sm bg-blue-800 text-white flex items-center justify-center py-3 w-full rounded-lg border-0 hover:bg-blue-700 transition-all  mb-3`}
+                  } text-sm bg-[#159bf5] text-white flex items-center justify-center py-3 w-full rounded-lg border-0 hover:bg-[#4590c2] transition-all  mb-3`}
                 >
                   {loading ? (
                     <AiOutlineLoading3Quarters
@@ -448,7 +448,7 @@ export const Checkout = ({ className, ...props }: CardProps) => {
                     id="button"
                     className={`${
                       loading ? "disabled cursor-not-allowed opacity-70" : ""
-                    } text-sm bg-blue-800 text-white flex items-center justify-center py-3 w-full rounded-lg border-0 mb-3 hover:bg-blue-700 transition-all`}
+                    } text-sm bg-[#159bf5] text-white flex items-center justify-center py-3 w-full rounded-lg border-0 mb-3 hover:bg-[#4590c2] transition-all`}
                   >
                     {loading ? (
                       <AiOutlineLoading3Quarters

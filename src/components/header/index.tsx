@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Dialog, Popover } from "@headlessui/react";
-import logo from "../../assets/rwalogo2.png";
+import logo from "../../assets/logoMtx.png";
 import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "@/contexts/CartContext";
@@ -285,7 +285,7 @@ export const Header = () => {
                   id="button"
                   className={`${
                     loading ? "disabled cursor-not-allowed opacity-70" : ""
-                  } text-sm bg-blue-800 text-white flex items-center justify-center py-3 w-full rounded-lg border-0 hover:bg-blue-700 transition-all  mb-3`}
+                  } text-sm bg-[#159bf5] text-white flex items-center justify-center py-3 w-full rounded-lg border-0 hover:bg-[#4590c2] transition-all  mb-3`}
                 >
                   {loading ? (
                     <AiOutlineLoading3Quarters
@@ -309,7 +309,7 @@ export const Header = () => {
                     id="button"
                     className={`${
                       loading ? "disabled cursor-not-allowed opacity-70" : ""
-                    } text-sm bg-blue-800 text-white flex items-center justify-center py-3 w-full rounded-lg border-0 mb-3 hover:bg-blue-700 transition-all`}
+                    } text-sm bg-[#159bf5] text-white flex items-center justify-center py-3 w-full rounded-lg border-0 mb-3 hover:bg-[#4590c2] transition-all`}
                   >
                     {loading ? (
                       <AiOutlineLoading3Quarters
@@ -354,7 +354,7 @@ export const Header = () => {
 
           <Link to={"/"}>
             <span className="sr-only">Your Company</span>
-            <img className="h-16" src={logo} alt="logo" />
+            <img className="h-12 my-3" src={logo} alt="logo" />
           </Link>
 
           <Popover.Group className="hidden xl:flex lg:gap-x-12 w-full max-w-2xl relative">
@@ -432,7 +432,7 @@ export const Header = () => {
 
       <nav className="hidden xl:flex mx-auto justify-between w-full max-w-7xl pt-5 px-30 md:px-16 items-center">
         <Link to={"/"}>
-          <img className="h-16" src={logo} alt="logo" />
+          <img className="h-10 my-3" src={logo} alt="logo" />
         </Link>
 
         <Popover.Group className="hidden xl:flex x:gap-x-12 w-full max-w-2xl relative">
@@ -599,7 +599,7 @@ export const Header = () => {
         <Dialog.Panel className="fixed inset-y-0 left-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link to={"/"} className="-m-1.5 p-1.5">
-              <img className="h-16 w-auto" src={logo} alt="logo" />
+              <img className="h-10 my-3 w-auto" src={logo} alt="logo" />
             </Link>
             <button
               type="button"

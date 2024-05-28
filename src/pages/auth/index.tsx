@@ -1,5 +1,5 @@
 import wallpaper from '../../assets/wallpaper.png'
-import logo from "../../assets/rwalogo2.png";
+import logo from "../../assets/logoMtx.png";
 import { Input } from '@/components/ui/input';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState, useContext , useEffect} from 'react';
@@ -71,7 +71,7 @@ export const Auth = () => {
        <div className='relative flex justify-between gap-5'>
             <div className='flex flex-col justify-center py-44 items-center gap-5 border-black p-16 my-auto mx-auto w-full max-w-xl'>
 
-                <h1 className='text-4xl font-semibold mb-10 text-black'>Entrar <span className='text-blue-800'>com</span></h1>
+                <h1 className='text-4xl font-semibold mb-10 text-black'>Entrar <span className='text-[#159bf5]'>com</span></h1>
 
                 <form onSubmit={(e) => verifyLogin(e)} className='w-full flex flex-col gap-5'>
                     <div className='w-full text-sm text-gray-600 relative'>
@@ -96,7 +96,7 @@ export const Auth = () => {
                         }
                     </div>
 
-                    <button id='button' className={`${loading ? "disabled cursor-not-allowed opacity-70" : ""} text-sm bg-blue-800 text-white flex items-center justify-center py-3 w-full rounded-lg border-0`}>
+                    <button id='button' className={`${loading ? "disabled cursor-not-allowed opacity-70" : ""} text-sm bg-[#159bf5] text-white flex items-center justify-center py-3 w-full rounded-lg border-0`}>
                         {
                             loading ? (
                                 <AiOutlineLoading3Quarters fontSize={22} className=' transition-all animate-spin'/>
@@ -110,15 +110,15 @@ export const Auth = () => {
                 </form>
 
                 <p className='text-xs md:text-sm flex gap-1'>Não possui usuário? 
-                    <Link to={"/cadastro"} className='text-blue-800'>
+                    <Link to={"/cadastro"} className='text-[#159bf5]'>
                         Cadastre-se
                     </Link>
                 </p>
             </div>
 
             <div className='relative hidden md:flex justify-center'>
-                <Link to={"/"}  className='absolute inset-0 overflow-hidden flex justify-center items-center' style={{ backdropFilter: 'blur(10px)',  backgroundColor: 'rgba(81, 81, 245, 0.397)' }}>
-                    <img src={logo} className='w-20'/>                
+                <Link to={"/"}  className='absolute inset-0 overflow-hidden flex justify-center items-center' style={{ backdropFilter: 'blur(10px)',  backgroundColor: 'rgba(81, 138, 245, 0.397)' }}>
+                    <img src={logo} className='w-32'/>                
                 </Link>
                 
                 <img src={wallpaper} className='w-full max-w-4xl h-svh' />

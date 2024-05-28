@@ -113,7 +113,7 @@ const ChangePassword = () => {
                 type="submit"
                 className={`${
                   loading ? "disabled cursor-not-allowed opacity-70" : ""
-                } text-xs bg-blue-800 text-white flex items-center justify-center py-1.5 w-full rounded-md border-0 hover:bg-blue-700 transition-all mt-2 mb-3`}
+                } text-xs bg-[#159bf5] text-white flex items-center justify-center py-1.5 w-full rounded-md border-0 hover:bg-[#4590c2] transition-all mt-2 mb-3`}
               >
                 {loading ? (
                   <AiOutlineLoading3Quarters

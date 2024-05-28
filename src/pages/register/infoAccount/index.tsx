@@ -353,7 +353,7 @@ export function InfoAccount() {
                         )
                     }
                     
-                    <button id='button' className={`${loading ? "disabled cursor-not-allowed opacity-70" : ""} text-sm bg-blue-800 text-white flex items-center justify-center py-3 w-full rounded-lg border-0`}>
+                    <button id='button' className={`${loading ? "disabled cursor-not-allowed opacity-70" : ""} text-sm bg-[#159bf5] text-white flex items-center justify-center py-3 w-full rounded-lg border-0`}>
                         {
                             loading ? (
                                 <AiOutlineLoading3Quarters fontSize={22} className=' transition-all animate-spin'/>
